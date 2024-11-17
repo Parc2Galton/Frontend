@@ -1,3 +1,5 @@
+import { BACKEND_API_URL, BACKEND_WS_URL } from './config';
+
 document.addEventListener("DOMContentLoaded", () => {
     const numBolasInput = document.getElementById("numBolas");
     const nivelesInput = document.getElementById("niveles");
