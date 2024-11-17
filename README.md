@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Create React App(Trabajo realizado por Juan Manuel Rodriguez, Pablo Alonso y francisco carlos lopez soto)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
