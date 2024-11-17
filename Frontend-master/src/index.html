@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de Producción</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="container">
+    <h1>Simulación de Producción</h1>
+    <div class="config">
+        <label for="numBolas">Número de Bolas:</label>
+        <input id="numBolas" type="number" value="100">
+        <label for="niveles">Niveles del Tablero:</label>
+        <input id="niveles" type="number" value="10">
+        <button id="startButton">Iniciar Simulación</button>
+    </div>
+    <div class="progress">
+        <h2>Progreso: <span id="progress">0</span>%</h2>
+    </div>
+    <canvas id="distributionChart"></canvas>
+</div>
+<script src="chart.min.js"></script>
+<script src="simulation.js"></script>
+</body>
+</html>
